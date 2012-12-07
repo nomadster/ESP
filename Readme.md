@@ -26,5 +26,13 @@ int main(){
   }
 ```
 
+Compiling it with
+```bash
+$ gcc -std=gnu99 -O3 fact.c -o factorial -lm
+```
+
+If you have `gcc >= 4.2.3` you can also use `-march=native` in order to have a little speed up (few seconds).
+
+
 If you are interested in understanding the math behind this stuff (explained in a simple fashion since i'm not a master in math) you can take a look at my [report](https://www.dropbox.com/s/n7ban1ebspb0eph/ESP.pdf).
 Be aware that the report is written in italian, but if you are really curious about it you can send me a message or open an issue and i will find the time to translate it.
