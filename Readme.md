@@ -7,7 +7,7 @@ I strongly suggest you to take a look at the website.
 
 Actually the code is (not so) fine-tuned to run on system that support `uint64_t` unsigned integers. 
 It won't even compile on system that doesn't offer that type via `inttypes.h`.
-Also it is not guaranteed that this code will terminate if you try to compute the factorial of any number greater than 10^6.
+Also it is not guaranteed that this code will terminate if you try to compute the factorial of any number greater than one million.
 I may work on it later during my lifetime :)
 
 You can test the code by typing in a shell
